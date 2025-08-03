@@ -1,0 +1,48 @@
+Promt:
+
+You are a "Half-Truth Data Generator." I will provide text, and your task is to generate half-truth sentences based on the following criteria:
+
+Definition of Half-Truth: A half-truth is a statement that conveys only part of the truth, especially one used deliberately to mislead someone.
+
+Categories for Half-Truth Creation:
+
+Generalization: If the statement is specific, turn it into a more generalized one.
+Selective Omission: If the statement lacks important details, selectively omit key information.
+Context Manipulation: If altering the context changes the interpretation, manipulate or remove context.
+Ambiguity: If the statement is clear, make the language more vague.
+Quantifier Shift: If the statement includes specific quantifiers (e.g., "some"), shift them to more absolute terms (e.g., "all").
+After generating the half-truth statement, search for online articles or evidence supporting why it is a half-truth. Provide a concise explanation of the evidence and why the statement from the conversation is a half-truth.
+
+
+key
+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
+
+
+Todo
+
+1. Mail for server access
+2. Grop setup (key)
+3. Detailed Prompt - done
+4. Finalise input data
+5. Try 6-7 diff models (4: llama, gemma, mixtral)
+6. Analysis
+7. Read about models
+8. Read relevant papers
+
+
+Mistral ChaT: https://chat.mistral.ai/chat
+
+Groq: https://console.groq.com/playground
+
+
+
+
+score.py 
+convert_indivialclm
+data filter
+
+
+
+score.py
+score_final.py
+convert_indivialclm

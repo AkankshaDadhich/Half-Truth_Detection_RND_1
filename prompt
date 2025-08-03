@@ -1,0 +1,350 @@
+I have a evidence and a claim statement I want you to give me the score the following:
+
+Factual Accuracy (0 to 1):
+How much of the statement is factually accurate? Is it based on truth, or is it distorted?
+0 = Completely inaccurate, 1 = Fully accurate.
+
+Deceptiveness (0 to 1):
+How misleading is the statement? Does it misrepresent the facts?
+0 = Not deceptive at all, 1 = Highly deceptive.
+
+Coherence (0 to 1):
+How well does the statement hold together logically? Is it clear and consistent?
+0 = Incoherent, 1 = Highly coherent.
+
+<!-- And a  confidence score between 0 to 1 that the statement is half true, true, mostly true, mostly false, false for each of this category  -->
+
+evidence 
+===============
+Baldwin claimed, "When I worked on the Affordable Care Act, I wrote the amendment that allows all young people to stay on their parents’ health insurance until they turn 26. Overnight, millions of young Americans got health care." 
+
+Multiple sources do credit her with authoring the draft of that provision. 
+
+And it did give millions of young Americans access to health insurance — though not quite as speedily as she contended. 
+
+
+Statement
+============
+Tammy Baldwin
+stated on May 5, 2024 in X, formerly Twitter:
+“When I worked on the Affordable Care Act, I wrote the amendment that allows all young people to stay on their parents’ health insurance until they turn 26. Overnight, millions of young Americans got health care.”
+
+=====================================================
+
+Task: Generate deceptive statements based on the following original paragraph by applying one or more of the following techniques mentioned below You may combine categories to create more nuanced or complex misrepresentations.
+Techniques You Can Apply:
+Paraphrasing: Slightly modify the original statement while keeping its essence, introducing subtle misrepresentation.
+Text Perturbations: Modify words (e.g., using negation or synonyms) to alter the meaning.
+Adversarial Attacks: Generate deceptive versions by altering key phrases or the sentiment of the original text.
+Omission: Leave out key facts that change the context of the original paragraph.
+Exaggeration: Overstate certain points to make the situation seem more severe.
+Understatement: Downplay the importance of key points.
+Alteration of Facts: Change specific details such as dates, numbers, or institutions.
+Over-Representation of Numbers: Inflate or distort numerical data.
+Generalization: Make the statement more vague to obscure critical details.
+Context Manipulation: Change the surrounding context to mislead readers.
+Ambiguity: Use vague or unclear language.
+Quantifier Shift: Alter quantifiers to distort the magnitude of an event.
+Selective Comparison: Only mention favorable facts for a biased representation.
+False Equivalence: Compare this situation to an unrelated one to create a misleading connection.
+Misleading Cause and Effect: Imply that one event caused another without proof.
+Emotional Appeal: Use sensational language to distract from facts.
+
+
+
+Ranking Criteria:
+For each generated deceptive statement, evaluate and score the following:
+
+Factual Accuracy (0 to 1):
+
+How much of the statement is factually accurate? Is it based on truth, or is it distorted?
+0 = Completely inaccurate, 1 = Fully accurate.
+Deceptiveness (0 to 1):
+
+How misleading is the statement? Does it misrepresent the facts?
+0 = Not deceptive at all, 1 = Highly deceptive.
+Coherence (0 to 1):
+
+How well does the statement hold together logically? Is it clear and consistent?
+0 = Incoherent, 1 = Highly coherent.
+
+
+Factual Accuracy (0 to 1): 
+   Definition: Assess how accurately the statement reflects the evidence. Is it truthful or distorted? Identify which parts of the statement align with factual information and if any inaccuracies or distortions exist.  
+   Score: 0 = Completely inaccurate, 1 = Fully accurate.
+
+Deceptiveness (0 to 1):
+   Definition: Evaluate the extent to which the statement may mislead. Is there any exaggeration, omission, or implication that misrepresents the facts?  
+   Score: 0 = Not deceptive at all, 1 = Highly deceptive.
+
+Coherence (0 to 1):
+   Definition: Rate the logical flow of the statement. Is it clear, consistent, and easy to understand or does it include confusing elements?  
+   Score: 0 = Incoherent, 1 = Highly coherent.
+
+Specificity (0 to 1):
+   Definition: Evaluate the level of detail. Does it provide enough specifics, or is it vague? Assess if key details are provided or if any aspects lack necessary precision.  
+   Score: 0 = Extremely vague, 1 = Highly specific.
+
+Emotional Tone (0 to 1): 
+   Definition: Identify if the tone is neutral or designed to evoke an emotional response. Evaluate if the language is charged with emotion or phrased in a way that may appeal to sentiment.  
+   Score: 0 = Neutral, 1 = Highly emotional.
+
+Bias (0 to 1): 
+   Definition: Assess the presence of bias. Does the statement favor a viewpoint or present an unbalanced perspective? Identify any indication of partiality and whether this affects the claim's balance.  
+   Score: 0 = No bias, 1 = Highly biased.
+
+Scope/Generality (0 to 1):  
+   Definition: Determine the breadth of the statement. Is it narrowly focused or generalized too broadly? Assess if the claim is overly broad or generalized and whether more specific data would improve it.  
+   Score: 0 = Very specific, 1 = Highly general.
+
+Temporal Consistency (0 to 1): 
+   Definition: Rate the time-based relevance of the statement. Does it align with the timeframe of the events described? Evaluate if the statement maintains accuracy over time or if it’s misleading regarding timing.  
+   Score: 0 = Not time-bound, 1 = Highly time-sensitive.
+
+Out of Context or Ambiguity (0 to 1): 
+   Definition: Evaluate if the statement is clear and in context. Does it omit information that could mislead? Assess any context omissions or ambiguous language that could lead to misinterpretation.  
+   Score: 0 = Highly misleading/ambiguous, 1 = Fully in context and clear.
+Final Rating:  
+Based on the scores for the features evaluated above, provide a final classification for the statement as one of the following: **'True,' 'Mostly True,' 'Half True,' 'Mostly False,' or 'False.'**
+
+
+
+Evidence:
+{evidence}
+
+Statement:
+{statement}
+
+=====
+Want the output in the following format:
+Factual Accuracy:   
+Deceptiveness:  
+Coherence: 
+Specificity: 
+Emotional Tone: 
+Bias: 
+Scope/Generality:  
+Temporal Consistency:  
+Out of Context or Ambiguity:  
+Final Rating: 
+
+I want statements can be of the following category 
+true, mostly-true, half-true, mostly-false,false 
+
+This original paragraph can be evidence and generated statements is claim
+=============
+Original Paragraph
+Despite being an outsider, Taapsee Pannu has made her way up the success ladder in Bollywood with her brilliant performances in films like, ‘Pink’, ‘Manmarziyaan’, ‘Thappad’ and others. In an exclusive interview with ETimes, the actress opened up about ongoing debate on insider vs outsider and her journey in the film industry so far.“It is how you have seen it. There have been ups and downs. We keep having these endless debates about insider vs outsider but nobody really knows the solution to it and even if you do, it is not that it can be implemented because the choice of a film is a very subjective thing. You cannot say that just because that person is a star kid, he is the right choice for the film. You also cannot say an outsider would suit the film the best. If you do, the tables will turn. So this debate does not have a foolproof solution to it. It is about your conscience. It is about how true you are to the way of working.”Elaborating further, she added, “My journey has been a testament to the fact that I have been patient and hard working. It is also luck because I feel 70 percent of the time it is luck that gets you films. The remaining 30 percent is how you misuse that luck. Do not take the opportunities you get for granted. Being an outsider, you have to be really on your toes because you cannot let go of even a single opportunity because you never know which opportunity will give a new direction to your career.”On the work front, Taapsee has some very interesting line-up of films in her kitty which include, ‘Rashmi Rocket’, ‘Loop Lapeta’, ‘Shabhash Mithu’ and ‘Haseen Dillruba’.
+
+
+
+
+
+
+Final Score Calculation:
+Use the following formula to calculate the final score for each generated deceptive statement:
+<!-- (-0.52708342*Factual Accuracy)+(0.2622×Deceptiveness)+(0.5292×Coherence)+0.2464
+
+Final Score = ((-0.56532286*Factual Accuracy)+(0.10235736*Deceptiveness)+(1.10884865* Coherence) − 0.129)   -->
+Final Score =  (-0.52708342*Factual Accuracy)+(0.26222755*Deceptiveness)+(0.52920356*Coherence)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======================
+Weights for Factual Accuracy, Deceptiveness, and Coherence: [-0.56532286  0.10235736  1.10884865]
+Intercept: -0.12874615647420506
+
+
+
+
+
+=========================
+
+Evaluation Prompt:
+
+Given the evidence and the claim statement below, evaluate the statement using the following criteria. For each criterion, assign a score from 0 to 1, where 0 represents the lowest rating (least accurate or clear) and 1 the highest (most accurate or clear). Justify each score in detail, explaining any deductions based on specific aspects of the claim.
+
+Evaluation Criteria:
+
+Factual Accuracy (0 to 1):
+Definition: Assess how accurately the statement reflects the evidence. Is it truthful or distorted? Identify which parts of the statement align with factual information and if any inaccuracies or distortions exist.
+Score: 0 = Completely inaccurate, 1 = Fully accurate.
+
+Deceptiveness (0 to 1):
+Definition: Evaluate the extent to which the statement may mislead. Is there any exaggeration, omission, or implication that misrepresents the facts?
+Score: 0 = Not deceptive at all, 1 = Highly deceptive.
+
+Coherence (0 to 1):
+Definition: Rate the logical flow of the statement. Is it clear, consistent, and easy to understand or if it includes confusing elements?
+Score: 0 = Incoherent, 1 = Highly coherent.
+
+Specificity (0 to 1):
+Definition: Evaluate the level of detail. Does it provide enough specifics, or is it vague? If key details are provided or if any aspects lack necessary precision.
+Score: 0 = Extremely vague, 1 = Highly specific.
+
+Emotional Tone (0 to 1):
+Definition: Identify if the tone is neutral or designed to evoke an emotional response. If the language is charged with emotion or phrased in a way that may appeal to sentiment
+Score: 0 = Neutral, 1 = Highly emotional.
+
+Bias (0 to 1):
+Definition: Assess the presence of bias. Does the statement favor a viewpoint or present an unbalanced perspective? Any indication of partiality and if this affects the claim's balance.
+Score: 0 = No bias, 1 = Highly biased.
+
+Scope/Generality (0 to 1):
+Definition: Determine the breadth of the statement. Is it narrowly focused or generalized too broadly? If the claim is overly broad or generalized and whether more specific data would improve it.
+Score: 0 = Very specific, 1 = Highly general.
+
+Temporal Consistency (0 to 1):
+Definition: Rate the time-based relevance of the statement. Does it align with the timeframe of the events described? If the statement maintains accuracy over time or if it’s misleading regarding timing.
+Score: 0 = Not time-bound, 1 = Highly time-sensitive.
+
+Out of Context or Ambiguity (0 to 1):
+Definition: Evaluate if the statement is clear and in context. Does it omit information that could mislead? Any context omissions or ambiguous language that could lead to misinterpretation?
+Score: 0 = Highly misleading/ambiguous, 1 = Fully in context and clear.
+
+Final Rating:
+Provide an overall assessment and classify the statement as one of the following: 'True,' 'Mostly True,' 'Half True,' 'Mostly False,' or 'False.' based on the features evaluated above
+
+
+Statement
+"Tim Walz signed into law driver's licenses for illegal immigrants in Minnesota."
+evidence 
+Donalds said, "Tim Walz signed into law driver's licenses for illegal immigrants in Minnesota."
+That’s correct. Walz signed a bill in 2023 expanding access to driver’s licenses regardless of immigration status in Minnesota. 
+Minnesota is one of 19 states that lets people illegally in the country apply for a driver’s license. 
+
+
+==================
+
+**Evaluation Prompt:**
+
+Given the evidence and the claim statement below, evaluate the statement using the following criteria. For each criterion, assign a score from 0 to 1, where 0 represents the lowest rating (least accurate or clear) and 1 the highest (most accurate or clear). Do not provide explanations for the scores.
+
+**Evaluation Criteria:**
+
+1. **Factual Accuracy (0 to 1):**  
+   Definition: Assess how accurately the statement reflects the evidence. Is it truthful or distorted? Identify which parts of the statement align with factual information and if any inaccuracies or distortions exist.  
+   Score: 0 = Completely inaccurate, 1 = Fully accurate.
+
+2. **Deceptiveness (0 to 1):**  
+   Definition: Evaluate the extent to which the statement may mislead. Is there any exaggeration, omission, or implication that misrepresents the facts?  
+   Score: 0 = Not deceptive at all, 1 = Highly deceptive.
+
+3. **Coherence (0 to 1):**  
+   Definition: Rate the logical flow of the statement. Is it clear, consistent, and easy to understand or does it include confusing elements?  
+   Score: 0 = Incoherent, 1 = Highly coherent.
+
+4. **Specificity (0 to 1):**  
+   Definition: Evaluate the level of detail. Does it provide enough specifics, or is it vague? Assess if key details are provided or if any aspects lack necessary precision.  
+   Score: 0 = Extremely vague, 1 = Highly specific.
+
+5. **Emotional Tone (0 to 1):**  
+   Definition: Identify if the tone is neutral or designed to evoke an emotional response. Evaluate if the language is charged with emotion or phrased in a way that may appeal to sentiment.  
+   Score: 0 = Neutral, 1 = Highly emotional.
+
+6. **Bias (0 to 1):**  
+   Definition: Assess the presence of bias. Does the statement favor a viewpoint or present an unbalanced perspective? Identify any indication of partiality and whether this affects the claim's balance.  
+   Score: 0 = No bias, 1 = Highly biased.
+
+7. **Scope/Generality (0 to 1):**  
+   Definition: Determine the breadth of the statement. Is it narrowly focused or generalized too broadly? Assess if the claim is overly broad or generalized and whether more specific data would improve it.  
+   Score: 0 = Very specific, 1 = Highly general.
+
+8. **Temporal Consistency (0 to 1):**  
+   Definition: Rate the time-based relevance of the statement. Does it align with the timeframe of the events described? Evaluate if the statement maintains accuracy over time or if it’s misleading regarding timing.  
+   Score: 0 = Not time-bound, 1 = Highly time-sensitive.
+
+9. **Out of Context or Ambiguity (0 to 1):**  
+   Definition: Evaluate if the statement is clear and in context. Does it omit information that could mislead? Assess any context omissions or ambiguous language that could lead to misinterpretation.  
+   Score: 0 = Highly misleading/ambiguous, 1 = Fully in context and clear.
+
+**Final Rating:**  
+Based on the scores for the features evaluated above, provide a final classification for the statement as one of the following: **'True,' 'Mostly True,' 'Half True,' 'Mostly False,' or 'False.'**
+
+
+Statement
+"Tim Walz signed into law driver's licenses for illegal immigrants in Minnesota."
+
+
+Evidence 
+Donalds said, "Tim Walz signed into law driver's licenses for illegal immigrants in Minnesota."
+That’s correct. Walz signed a bill in 2023 expanding access to driver’s licenses regardless of immigration status in Minnesota. 
+Minnesota is one of 19 states that lets people illegally in the country apply for a driver’s license. 
+
+
+
+
+===============================
+Original Paragraph:
+(Reuters) - A gift-wrapped package addressed to U.S. Treasury Secretary Steven Mnuchin’s home in a posh Los Angeles neighborhood that was suspected of being a bomb was instead filled with horse manure, police told local media. The package was found Saturday evening in a next-door neighbor’s driveway in Bel Air, the Los Angeles Police Department told the Los Angeles Times and KNBC television, the NBC affiliate in Los Angeles. The package also included a Christmas card with negative comments about President Donald Trump and the new U.S. tax law signed by Trump last week. Reuters could not reach LAPD officials for comment on Sunday. An LAPD bomb squad X-rayed the package before opening it and found the horse manure inside, police told local media. Aerial footage from KNBC showed officers investigating a large box in wrapping paper, then dumping a large amount of what they later identified as the manure and opening the card that was included inside.  Mnuchin, who KNBC said was not home when the package was discovered, is a former Goldman Sachs Group Inc executive and Hollywood film financier. A road in Bel Air was closed for about two hours, KNBC reported. The U.S. Secret Service is also investigating the incident, according to the TV station. 
+
+
+Task: Generate deceptive statements from the original paragraph below, can be rated as True, Mostly True, Half-True, Mostly False, or False by using one or more techniques listed. Multiple techniques may be combined to create complex or nuanced misrepresentations.
+
+Available Techniques:
+
+Paraphrasing: Alter wording slightly while maintaining the core message, adding subtle misrepresentation.
+Text Perturbations: Change specific words (e.g., adding negation or using synonyms) to shift meaning.
+Adversarial Attacks: Modify key phrases or sentiment to produce misleading versions.
+Omission: Exclude critical information that affects context.
+Exaggeration: Overstate aspects to intensify the situation.
+Understatement: Downplay important elements.
+Alteration of Facts: Modify specific details, such as dates, figures, or entities.
+Over-Representation of Numbers: Inflate or distort numerical data.
+Generalization: Broaden details to obscure specifics.
+Context Manipulation: Alter context to mislead.
+Ambiguity: Use vague or unclear language.
+Quantifier Shift: Change quantifiers (e.g., "some" to "most") to misrepresent magnitude.
+Selective Comparison: Emphasize favorable details for bias.
+False Equivalence: Compare unrelated events to imply misleading connections.
+Misleading Cause and Effect: Imply causation without evidence.
+Emotional Appeal: Use charged language to evoke emotions, distracting from facts.
+Ranking Criteria:
+Score each statement on the following dimensions:
+
+Factual Accuracy (0 to 1): Rate truthfulness based on the evidence.
+Deceptiveness (0 to 1): Assess potential to mislead; is there exaggeration, omission, or implication that distorts facts?
+Coherence (0 to 1): Rate logical flow and clarity.
+Specificity (0 to 1): Evaluate detail level; is it specific or vague?
+Emotional Tone (0 to 1): Indicate if the tone is neutral or emotionally charged.
+Bias (0 to 1): Identify if the statement favors a viewpoint.
+Scope/Generality (0 to 1): Determine if the statement is specific or overly broad.
+Temporal Consistency (0 to 1): Align statement with the event's timeframe.
+Out of Context or Ambiguity (0 to 1): Evaluate clarity and context retention.
+Final Rating Categories:
+
+True: Fully accurate, no significant bias or omission.
+Mostly True: Minor exaggeration or omission.
+Half True: Balance of accurate and misleading.
+Mostly False: Significant inaccuracies, with some truth.
+False: Entirely inaccurate or misleading.
+Evidence:
+{Original Paragraph}
+
+Statement:
+{Deceptive Statement}
+
+Evaluation Output Format:
+
+Factual Accuracy: [Score]  
+Deceptiveness: [Score]  
+Coherence: [Score]  
+Specificity: [Score]  
+Emotional Tone: [Score]  
+Bias: [Score]  
+Scope/Generality: [Score]  
+Temporal Consistency: [Score]  
+Out of Context or Ambiguity: [Score]  
+Final Rating: [True / Mostly True / Half True / Mostly False / False]  

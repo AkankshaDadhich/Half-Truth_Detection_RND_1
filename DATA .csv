@@ -1,0 +1,105 @@
+Statement,Evidence,"Factual Accuracy (0 to 1):
+
+","Deceptiveness (0 to 1):
+
+",Coherence (0 to 1):,True Label,Confidence Generated of true label ,Range ,
+"Kamala Harris
+stated on October 7, 2024 in an interview on CBS's ""60 Minutes"":
+""We now have historic low unemployment in America among all groups of people.""","Harris said, ""We now have historic low unemployment in America among all groups of people.""
+
+Under the Biden-Harris administration, both the overall unemployment rate and the rates for several ethnic and racial groups have been relatively low by historical standards.
+
+However, Harris said ""now,"" which ignores that the unemployment rate has trended upward for nearly two years. The unemployment rate for these groups currently ranges between six-tenths of a point to 2 percentage points above the record low for that group.",0.6,0.75,0.9,Half truth ,0.75,0.55,"0 to 0.2 - false
+U.S. Transportation Secretary Pete Buttigieg banned private drones from flying over areas affected by Hurricane Helene.,"X posts said Buttigieg banned private drones from flying over areas affected by Hurricane Helene.
+
+But a Transportation Department spokesperson said the Federal Aviation Administration has not banned drones from providing Hurricane Helene disaster relief and recovery assistance. 
+
+The Federal Aviation Administration on Oct. 2 issued a temporary flight restriction in limited parts of the areas Hurricane Helene affected, but lifted the restriction that night. 
+
+A ban bars aircraft from flying over a specific area. A temporary flight restriction is temporary and usually applies to nonauthorized flights during emergency situations or special events. People who want to volunteer during emergency situations can coordinate with the authorities to have access to the restricted airspace",0.3,0.85,0.9,Mostly False,0.8,0.36,
+"Julie Su
+stated on August 15, 2024 in News conference:
+“400,000 workers are now in a union that were not in a union when (Biden) became president.”","Su said, ""Four hundred thousand workers are now in a union that were not in a union when (Biden) became president.""  
+
+That figure is correct however it does not mention that the increase is more indicative of unions — and the entire workforce — recovering from the pandemic than to any specific policy.
+",0.95,0.3,0.95,Mostly True:,0.9,0.78,
+"Hurricane Milton article is evidence they ""control and plan these storms.""","An Instagram post claimed that an article about the effects of Hurricane Milton published before the storm hit the U.S. is evidence that storms are controlled and planned.
+
+But the article cited is from ""Hypothetical Hurricanes,""a wiki page on which storm enthusiasts create fictional articles for a hurricane season based on their own imaginations. The storm name Milton was already planned by the World Meteorological Organization for 2024, and the wiki user created a fictional path for the storm.
+",0,1,0.8,FALSE,0.95,0.19,
+Project 2025 would “cut” the Federal Emergency Management Agency and “kill federal-backed flood insurance.”,"Social media posts said Project 2025 would ""cut FEMA"" and ""kill federal-backed flood insurance.""  
+
+Project 2025’s proposed FEMA changes include raising the per capita threshold for providing FEMA public assistance, terminating its grants, replacing the National Flood Insurance Program with privatized insurance and changing FEMA’s cost-share so that federal government covers less of the cost for smaller disaster response and recovery. 
+
+Experts told PolitiFact that if these proposals became reality — surviving congressional opposition and overcoming what is likely to be limited private insurers’ support — they would reduce FEMA’s support to state and local governments, hinder disaster response and leave property owners with greater exposure and fewer options.",0.9,0.2,0.95,TRUE,0.85,0.97,
+"When New Hampshire gubernatorial nominee Kelly Ayotte served on two companies’ boards, one “laid off 18,000 workers” and the other “laid off 1,200 American workers, moving jobs overseas.”
+","A New Hampshire Democratic Party ad said that when Ayotte was serving on corporate boards, one company ""laid off 18,000 workers"" and another ""laid off 1,200 American workers, moving jobs overseas.""
+
+Ayotte served on the company board of Blackstone, which had a joint venture with MGM Resorts when MGM laid off 18,000 workers as the  COVID-19 pandemic hit and travel slowed dramatically. But Blackstone served as MGM’s landlord; it did not operate the company or dictate its layoffs.
+
+Another company for which Ayotte served as a board member, Caterpillar, laid off 1,200 U.S. workers during her tenure, and many of the jobs moved outside the United States. However, the ad ignores that Caterpillar’s U.S. employment increased overall by 8,600 jobs during Ayotte’s board tenure.",0.75,0.6,0.9,Half True,0.8,0.56,
+"Jared Moskowitz
+stated on September 19, 2024 in a House hearing:
+“Project 2025 wants to get rid of NOAA” and the National Weather Service.","Moskowitz said, ""Project 2025 wants to get rid of NOAA"" and the National Weather Service.
+
+Project 2025 has a few pages about NOAA and the National Weather Service and some of its phrasing is vague.
+
+But it does call for major changes. It described NOAA as a primary component ""of the climate change alarm industry"" and said it ""should be broken up and downsized.""
+
+It doesn’t explicitly call for getting rid of the National Weather Service, but it says it should ""fully commercialize its forecasting operations.""",0.5,0.8,0.9,Half True,0.7,0.54,
+FEMA “blocked a runway” at a South Carolina airport and “halted” hurricane relief flights.,"An Instagram video said that FEMA closed a runway at a Greenville, South Carolina, airport and halted flights of donated supplies to hurricane victims.
+
+Organizers arranging the donations and flights said that flights were halted because enough donations had arrived to meet disaster needs for now. The decision did not involve FEMA. An airport spokesperson said a secondary runway was closed for three days for a FEMA contractor, but that closure didn’t affect flights in or out of the airport.
+",0.3,0.9,0.8,FALSE,0.9,0.18,
+"lon Musk
+stated on October 2, 2024 in a post on X:
+With U.S. Customs and Border Protection’s CBP One app, it “takes less than 5 minutes and zero documentation to get approved as an illegal immigrant and be flown to the United States with air tickets paid for by the American taxpayer.”","Musk said the CBP One app lets someone with ""zero documentation get approved as an illegal immigrant and be flown to the United States with air tickets paid for by the American taxpayer.""
+
+The CBP One app is used only for scheduling appointments and prescreening. It’s not an asylum or parole application and doesn’t grant entry to migrants. It also does not provide them with free flights.",0.1,0.95,0.9,FALSE,0.95,0.19,
+"Byron Donalds
+stated on August 6, 2024 in an interview:
+""Tim Walz signed into law driver's licenses for illegal immigrants in Minnesota.""","Donalds said, ""Tim Walz signed into law driver's licenses for illegal immigrants in Minnesota.""
+
+That’s correct. Walz signed a bill in 2023 expanding access to driver’s licenses regardless of immigration status in Minnesota. 
+
+Minnesota is one of 19 states that lets people illegally in the country apply for a driver’s license. ",1,0,1,TRUE,0.95,0.99,
+“Violent crime is near a record 50-year low.”,"Donalds said Harris ""co-sponsored, fully sponsored"" the Green New Deal.
+
+Donalds is right: When the Senate introduced its version of the Green New Deal in February 2019, Harris was one of 11 Democrats who were original co-sponsors. 
+
+In a Medium post published when the resolution was introduced, Harris wrote that she was ""proud"" to have signed on as an original Senate co-sponsor. ",0.8,0.2,1,TRUE,0.6,0.92,
+"Senate Leadership Fund
+stated on September 17, 2024 in a TV ad:
+“Two years ago, Bob Casey promised us his vote will reduce inflation. ... Casey’s vote for reckless spending” made inflation worse.","The Senate Leadership Fund said, ""Two years ago, Bob Casey promised us his vote will reduce inflation,"" but ""Casey’s vote for reckless spending"" made inflation worse. The ad distorted the timeline of Casey’s votes and blurred the difference between the Inflation Reduction Act and the American Rescue Plan. 
+
+Casey was speaking about the Inflation Reduction Act in the clip shown in the ad. Inflation has fallen significantly since that law’s passage in August 2022, though economists believe the law was not a major reason why. 
+
+However, Casey voted for the American Rescue Plan in 2021, which economists say contributed to the historically high inflation from 2021 to 2022. But that’s not the bill Casey said ""will reduce inflation.""
+
+The ad has an element of truth but was edited in a misleading way to leave voters with a false impression of Casey’s comment and the Inflation Reduction Act’s effect.",0.4,0.8,0.9,Mostly False,0.9,0.38,
+President Joe Biden “did a campaign ad at the graves in Arlington in 2020.”,"An X post said that Biden ""did a campaign ad at the graves in Arlington in 2020.""
+
+Biden shared a 2020 campaign ad that included a photo taken at Arlington National Cemetery, but it was taken in 2010 as part of his vice presidential duties, not as part of a campaign activity.
+
+The statement contains an element of truth but ignores critical facts that would give a different impression",0.3,0.7,0.8,Mostly False,0.8,0.36,
+"Pete Buttigieg
+stated on August 11, 2024 in an interview on CNN State of the Union:
+Gov. Tim Walz delivered paid family leave in Minnesota but “Republicans are blocking” a Biden-Harris proposal.","Buttitieg said Walz delivered paid family leave in Minnesota but ""Republicans are blocking"" a Biden-Harris proposal.
+
+Walz signed a bill in May 2023 to provide for paid family leave. It takes effect in 2026.
+
+Republicans, citing spending concerns, have broadly resisted federal paid family leave similar to the kind Walz signed into law. Trump failed to expand paid leave to all workers when he was president.
+
+In 2021, Biden’s Build Back Better proposal, which included four weeks of paid family leave annually along with many other programs, failed to garner enough support when all Republicans and then-Democratic Sen. Manchin opposed it. 
+
+A bipartisan group of federal lawmakers have taken steps to research paid family leave, but it hasn’t led to a bill. Democrats have proposed paid family leave bills akin to what Walz signed for a decade.
+
+The statement is accurate about Walz’s record but needs clarification about why family leave has not passed at the federal level.",0.7,0.4,0.9,Mostly True,0.8,0.76,
+"Simon Rosenberg
+stated on March 8, 2024 in a post on X:
+“Since 1989 and a new age of globalization began, 51 million jobs have been created in America. 49 million, 96%, have been created under Democratic presidents.”","Rosenberg said, ""Since 1989 and a new age of globalization began, 51 million jobs have been created in America. 49 million, 96%, have been created under Democratic presidents.""
+
+His numbers for the past 35 years are on target. A longer look finds a smaller discrepancy, but the Democratic edge is still better than 2-to-1.
+
+Policies may have played a role, but so have timing and events beyond any president’s control.
+",0.9,0.3,1,Mostly True,0.9,0.78,

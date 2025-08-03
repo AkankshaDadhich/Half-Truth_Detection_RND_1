@@ -1,0 +1,61 @@
+Original Paragraph:
+(Reuters) - A gift-wrapped package addressed to U.S. Treasury Secretary Steven Mnuchin’s home in a posh Los Angeles neighborhood that was suspected of being a bomb was instead filled with horse manure, police told local media. The package was found Saturday evening in a next-door neighbor’s driveway in Bel Air, the Los Angeles Police Department told the Los Angeles Times and KNBC television, the NBC affiliate in Los Angeles. The package also included a Christmas card with negative comments about President Donald Trump and the new U.S. tax law signed by Trump last week. Reuters could not reach LAPD officials for comment on Sunday. An LAPD bomb squad X-rayed the package before opening it and found the horse manure inside, police told local media. Aerial footage from KNBC showed officers investigating a large box in wrapping paper, then dumping a large amount of what they later identified as the manure and opening the card that was included inside.  Mnuchin, who KNBC said was not home when the package was discovered, is a former Goldman Sachs Group Inc executive and Hollywood film financier. A road in Bel Air was closed for about two hours, KNBC reported. The U.S. Secret Service is also investigating the incident, according to the TV station. 
+
+
+Task: Generate deceptive statements from the original paragraph below, can be rated as True, Mostly True, Half-True, Mostly False, or False by using one or more techniques listed. Multiple techniques may be combined to create complex or nuanced misrepresentations.
+
+Available Techniques:
+
+Paraphrasing: Alter wording slightly while maintaining the core message, adding subtle misrepresentation.
+Text Perturbations: Change specific words (e.g., adding negation or using synonyms) to shift meaning.
+Adversarial Attacks: Modify key phrases or sentiment to produce misleading versions.
+Omission: Exclude critical information that affects context.
+Exaggeration: Overstate aspects to intensify the situation.
+Understatement: Downplay important elements.
+Alteration of Facts: Modify specific details, such as dates, figures, or entities.
+Over-Representation of Numbers: Inflate or distort numerical data.
+Generalization: Broaden details to obscure specifics.
+Context Manipulation: Alter context to mislead.
+Ambiguity: Use vague or unclear language.
+Quantifier Shift: Change quantifiers (e.g., "some" to "most") to misrepresent magnitude.
+Selective Comparison: Emphasize favorable details for bias.
+False Equivalence: Compare unrelated events to imply misleading connections.
+Misleading Cause and Effect: Imply causation without evidence.
+Emotional Appeal: Use charged language to evoke emotions, distracting from facts.
+Ranking Criteria:
+Score each statement on the following dimensions:
+
+Factual Accuracy (0 to 1): Rate truthfulness based on the evidence.
+Deceptiveness (0 to 1): Assess potential to mislead; is there exaggeration, omission, or implication that distorts facts?
+Coherence (0 to 1): Rate logical flow and clarity.
+Specificity (0 to 1): Evaluate detail level; is it specific or vague?
+Emotional Tone (0 to 1): Indicate if the tone is neutral or emotionally charged.
+Bias (0 to 1): Identify if the statement favors a viewpoint.
+Scope/Generality (0 to 1): Determine if the statement is specific or overly broad.
+Temporal Consistency (0 to 1): Align statement with the event's timeframe.
+Out of Context or Ambiguity (0 to 1): Evaluate clarity and context retention.
+Final Rating Categories:
+
+True: Fully accurate, no significant bias or omission.
+Mostly True: Minor exaggeration or omission.
+Half True: Balance of accurate and misleading.
+Mostly False: Significant inaccuracies, with some truth.
+False: Entirely inaccurate or misleading.
+Evidence:
+{Original Paragraph}
+
+Statement:
+{Deceptive Statement}
+
+Evaluation Output Format:
+
+Factual Accuracy: [Score]  
+Deceptiveness: [Score]  
+Coherence: [Score]  
+Specificity: [Score]  
+Emotional Tone: [Score]  
+Bias: [Score]  
+Scope/Generality: [Score]  
+Temporal Consistency: [Score]  
+Out of Context or Ambiguity: [Score]  
+Final Rating: [True / Mostly True / Half True / Mostly False / False]  

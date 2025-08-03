@@ -1,0 +1,600 @@
+I have done a lot of experiments for training M model  Write all expirenmetn and its analysis as why I want to write in my report for my research project under experiment and result section 
+Expirement 1 
+
+I took PolitiFact data 
+Trained MODEL ‘M’ with 250 politifact instances 50 instances of each class
+Namely true, half-true, mostly-true, mostly-false, false
+Ask ChatGPT to generate Deceptiveness, Factuality, and, Coherence scores
+Tried different models to fit a curve 
+
+Took 50 instances of each category(true, half-true, mostly-true, mostly-false, false )from politifact dataset having claim evidence and found Deceptiveness, Factual Accuracy, Coherence, Half True Confidence (between 0 and 1)	True Confidence (between 0 and 1)	Mostly True Confidence (between 0 and 1)	Mostly False Confidence (between 0 and 1) and False Confidence (between 0 and 1) score using gpt 4
+
+Pre-processed the output and trained different models. Tried first linear regression to find weights of the equation but it was not fitting well and giving wrong results
+First I TRIED with linear regression to fit data 
+Weights for Factual Accuracy, Deceptiveness, and Coherence: [-0.52708342  0.26222755  0.52920356]
+Intercept: 0.24639183025398737
+
+But it was failing to fit data well
+Given the values:
+Factual Accuracy = 0.2
+Deceptiveness = 0.7
+Coherence = 1
+Substituting these values into the formula:
+Final Score=(0.45×0.2)+(0.45×0.7)+(0.1×1) = 0.505 (Half true but it was mostly false)
+
+2) Decision Tree  Accuracy: 0.58 
+      Classification Report
+        Class
+Precision
+Recall
+F1-score
+Support
+0
+0.36
+0.71
+0.48
+7
+1
+0.67
+0.60
+0.63
+10
+2
+0.44
+0.36
+0.40
+11
+3
+0.89
+0.62
+0.73
+13
+4
+0.67
+0.67
+0.67
+9
+Macro Avg
+0.60
+0.59
+0.58
+50
+Weighted Avg
+0.64
+0.58
+0.59
+50
+
+SVM 
+Accuracy: 0.58 
+      Classification Report
+
+ Class
+Precision
+Recall
+F1-score
+Support
+0
+0.33
+0.43
+0.38
+7
+1
+0.62
+0.50
+0.56
+10
+2
+0.45
+0.45
+0.45
+11
+3
+0.83
+0.77
+0.80
+13
+4
+0.60
+0.67
+0.63
+9
+Macro Avg
+0.57
+0.56
+0.56
+50
+Weighted Avg
+0.60
+0.58
+0.59
+50
+
+ Random Forest
+Accuracy: 0.64
+Classification Report
+ Class
+Precision
+Recall
+F1-score
+Support
+0
+0.50
+0.71
+0.59
+7
+1
+0.62
+0.50
+0.56
+10
+2
+0.56
+0.45
+0.50
+11
+3
+0.83
+0.77
+0.80
+13
+4
+0.64
+0.78
+0.70
+9
+Macro Avg
+0.63
+0.64
+0.63
+50
+Weighted Avg
+0.65
+0.64
+0.64
+50
+
+ Gradient Boosting Classifier
+Accuracy: 0.68 
+      Classification Report
+ Class
+Precision
+Recall
+F1-score
+Support
+0
+0.45
+0.71
+0.56
+7
+1
+0.71
+0.50
+0.59
+10
+2
+0.83
+0.45
+0.59
+11
+3
+0.83
+0.77
+0.80
+13
+4
+0.64
+1.00
+0.78
+9
+Macro Avg
+0.70
+0.69
+0.66
+50
+Weighted Avg
+0.72
+0.68
+0.67
+50
+
+out of this first experiment Gradient Boosting Classifier did best 
+
+The input was claim evidence 3 features decpetiveness cohrencce factual accuracy and the gold label was one of the 5 classes 
+The scores were generated using a prompt using gpt 4
+
+GIve me analysis also for this result 
+
+Experiment 2
+2) Tried different experiments to increase accuracy of Model M which is used to predict label
+Reduced the number of features - dropped Coherence (0 to 1)
+Added some more features - 
+Specificity (0 to 1) 
+ Definition: Evaluate the level of detail. Does it provide enough specifics, or is it vague? Assess if key details are provided or if any aspects lack necessary precision. Score: 0 = Extremely vague, 1 = Highly specific.
+
+Emotional Tone (0 to 1)
+Definition: Identify if the tone is neutral or designed to evoke an emotional response. Evaluate if the language is charged with emotion or phrased in a way that may appeal to sentiment. Score: 0 = Neutral, 1 = Highly emotional.
+
+Scope/Generality (0 to 1)
+Definition: Determine the breadth of the statement. Is it narrowly focused or generalized too broadly? Assess if the claim is overly broad or generalized and whether more specific data would improve it. Score: 0 = Very specific, 1 = Highly general.
+
+Temporal Consistency (0 to 1)
+Definition: Rate the time-based relevance of the statement. Does it align with the timeframe of the events described? Evaluate if the statement maintains accuracy over time or if it’s misleading regarding timing. Score: 0 = Not time-bound, 1 = Highly time-sensitive.
+
+Out of Context or Ambiguity (0 to 1)
+Definition: Evaluate if the statement is clear and in context. Does it omit information that could mislead? Assess any context omissions or ambiguous language that could lead to misinterpretation. Score: 0 = Highly misleading/ambiguous, 1 = Fully in context and clear 
+
+
+Results 
+Decision Tree (Removed the Coherence column)
+Accuracy: 0.7
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.60      0.60        10
+           1       0.64      0.70      0.67        10
+           2       0.67      0.60      0.63        10
+           3       0.80      0.80      0.80        10
+           4       0.80      0.80      0.80        10
+
+    accuracy                           0.70        50
+   macro avg       0.70      0.70      0.70        50
+weighted avg       0.70      0.70      0.70        50
+
+Random Forest (Removed the Coherence column)
+Accuracy: 0.7
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.60      0.60        10
+           1       0.60      0.60      0.60        10
+           2       0.75      0.60      0.67        10
+           3       0.73      0.80      0.76        10
+           4       0.82      0.90      0.86        10
+
+    accuracy                           0.70        50
+   macro avg       0.70      0.70      0.70        50
+weighted avg       0.70      0.70      0.70        50
+
+Gradient Boosting Classifier(Removed the Coherence column) 
+Accuracy: 0.7
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.60      0.60        10
+           1       0.60      0.60      0.60        10
+           2       0.75      0.60      0.67        10
+           3       0.73      0.80      0.76        10
+           4       0.82      0.90      0.86        10
+
+    accuracy                           0.70        50
+   macro avg       0.70      0.70      0.70        50
+weighted avg       0.70      0.70      0.70        50
+
+SVM (Removed the Coherence column)
+Accuracy: 0.74
+      Classification Report
+ Class
+Precision
+Recall
+F1-score
+Support
+0
+0.62
+0.80
+0.70
+10
+1
+0.75
+0.60
+0.67
+10
+2
+0.75
+0.60
+0.67
+10
+3
+0.80
+0.80
+0.80
+10
+4
+0.82
+0.90
+0.86
+10
+Macro Avg
+0.75
+0.74
+0.74
+50
+Weighted Avg
+0.75
+0.74
+0.74
+50
+
+Experiment 3)
+3) Now tried to generate data through GPT mini with 250 instances 50 instances of each class 
+got these results 
+SVM (GPT-4o mini)
+Accuracy: 0.72
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.58      0.70      0.64        10
+           1       1.00      0.50      0.67        10
+           2       0.67      0.60      0.63        10
+           3       0.75      0.90      0.82        10
+           4       0.75      0.90      0.82        10
+
+    accuracy                           0.72        50
+   macro avg       0.75      0.72      0.71        50
+weighted avg       0.75      0.72      0.71        50
+
+
+Random Forest
+Accuracy: 0.68
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.58      0.70      0.64        10
+           1       1.00      0.30      0.46        10
+           2       0.67      0.60      0.63        10
+           3       0.64      0.90      0.75        10
+           4       0.75      0.90      0.82        10
+
+    accuracy                           0.68        50
+   macro avg       0.73      0.68      0.66        50
+weighted avg       0.73      0.68      0.66        50
+
+
+Decision Tree 
+Accuracy: 0.66
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.58      0.70      0.64        10
+           1       1.00      0.20      0.33        10
+           2       0.67      0.60      0.63        10
+           3       0.60      0.90      0.72        10
+           4       0.75      0.90      0.82        10
+
+    accuracy                           0.66        50
+   macro avg       0.72      0.66      0.63        50
+weighted avg       0.72      0.66      0.63        50
+
+Gradient Boosting Classifier 
+Accuracy: 0.7
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.60      0.60        10
+           1       0.60      0.60      0.60        10
+           2       0.75      0.60      0.67        10
+           3       0.73      0.80      0.76        10
+           4       0.82      0.90      0.86        10
+
+    accuracy                           0.70        50
+   macro avg       0.70      0.70      0.70        50
+weighted avg       0.70      0.70      0.70        50
+
+
+Light Gradient Boosting Machine
+
+Accuracy: 0.68
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.43      0.86      0.57         7
+           1       0.80      0.40      0.53        10
+           2       0.62      0.45      0.53        11
+           3       0.92      0.92      0.92        13
+           4       0.70      0.78      0.74         9
+
+    accuracy                           0.68        50
+   macro avg       0.70      0.68      0.66        50
+weighted avg       0.72      0.68      0.68        50
+
+Expeiment 4)
+4) THEN I Pre-Processed data AND 
+Processed data generated from GPT 4 mini . 
+To increase confidence in the scores generated by ChatGPT, only those data points where the predicted label from ChatGPT accurately matched the ground truth label were retained for further analysis
+
+after this got SVN accuracy highest 
+
+Accuracy: 0.85
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      1.00      0.80         8
+           1       1.00      0.50      0.67         8
+           2       0.86      0.75      0.80         8
+           3       1.00      1.00      1.00         8
+           4       0.89      1.00      0.94         8
+
+    accuracy                           0.85        40
+   macro avg       0.88      0.85      0.84        40
+weighted avg       0.88      0.85      0.84        40
+
+
+Experiment 5)
+5)  Now increased the dataset and to around 400 instances and preproced the data 
+after pre processing data remained 382
+
+SVM performed rellay good with only these features included I tried different combination of features to test which would have best accuracy 
+'Factual Accuracy', 'Deceptiveness','Emotional Tone','Bias','Scope/Generality','Temporal Consistency'
+this combination had best accuracy 
+Accuracy: 0.8961038961038961
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88        16
+           1       1.00      0.54      0.70        13
+           2       0.83      1.00      0.91        15
+           3       0.84      1.00      0.91        16
+           4       1.00      1.00      1.00        17
+
+    accuracy                           0.90        77
+   macro avg       0.91      0.88      0.88        77
+weighted avg       0.91      0.90      0.89        77
+
+Expriment6)
+ Even tried to use mistral to generate score Factual Accuracy,Deceptiveness,Coherence,Specificity,Emotional Tone,Bias,Scope/Generality,Temporal Consistency,Out of Context or Ambiguity
+but this did not performed well that well 
+
+SVM 
+Accuracy: 0.78
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.75      0.60      0.67        10
+           1       0.89      0.80      0.84        10
+           2       0.88      0.70      0.78        10
+           3       0.77      1.00      0.87        10
+           4       0.67      0.80      0.73        10
+
+    accuracy                           0.78        50
+   macro avg       0.79      0.78      0.78        50
+weighted avg       0.79      0.78      0.78        50
+
+
+Random Forest(Mistral)
+Accuracy: 0.68
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.50      0.48        10
+           1       0.86      0.60      0.71        10
+           2       0.50      0.40      0.44        10
+           3       0.77      1.00      0.87        10
+           4       0.82      0.90      0.86        10
+
+    accuracy                           0.68        50
+   macro avg       0.68      0.68      0.67        50
+weighted avg       0.68      0.68      0.67        50
+
+Decision Tree 
+Accuracy: 0.7
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67        10
+           1       0.62      0.50      0.56        10
+           2       1.00      0.50      0.67        10
+           3       0.88      0.70      0.78        10
+           4       0.89      0.80      0.84        10
+
+    accuracy                           0.70        50
+   macro avg       0.78      0.70      0.70        50
+weighted avg       0.78      0.70      0.70        50
+
+Gradient Boosting Classifier 
+
+Accuracy: 0.7
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.60      0.60        10
+           1       0.60      0.60      0.60        10
+           2       0.75      0.60      0.67        10
+           3       0.73      0.80      0.76        10
+           4       0.82      0.90      0.86        10
+
+    accuracy                           0.70        50
+   macro avg       0.70      0.70      0.70        50
+weighted avg       0.70      0.70      0.70        50
+
+Light Gradient Boosting Machine
+Accuracy: 0.68
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.43      0.86      0.57         7
+           1       0.80      0.40      0.53        10
+           2       0.62      0.45      0.53        11
+           3       0.92      0.92      0.92        13
+           4       0.70      0.78      0.74         9
+
+    accuracy                           0.68        50
+   macro avg       0.70      0.68      0.66        50
+weighted avg       0.72      0.68      0.68        50
+
+
+Neural network 
+Nn Training Accuracy: 0.8393442630767822
+Test Accuracy: 0.7922077775001526
+
+
+Give an explanation for all experiment you can continue in next prompt as well but do nit miss anything
+
+NOw after M model is fixed based on the results 
+
+
+4.1.2
+• Dataset: PolitiFact (250 instances, 50
+instances per class: True, Half-True,
+Mostly-True, Mostly-False, False).
+• Features: Deceptiveness, Factual Accu-
+racy, Coherence (scores generated via
+GPT-4 prompts).
+• Models Evaluated: Linear Regression,
+Decision Tree, SVM, Random Forest,
+Gradient Boosting Classifier.
+• Target: Prediction of gold labels (True,
+Half-True, Mostly-True, Mostly-False,
+False).
+Results:
+• Linear Regression: Failed to fit the data
+effectively. Example prediction for Fac-
+tual Accuracy = 0.2, Deceptiveness = 0.7,
+Coherence = 1 gave a score inconsistent
+with the ground truth.
+Experiment 2: Feature Engineering
+to Improve Model Accuracy
+Setup:
+• Dropped: The Coherence feature based
+on low contribution from Experiment 1.
+• Added five new features:
+1. Specificity: Measures detail level of
+the claim.
+2. Emotional Tone: Assesses senti-
+ment in the language.
+3. Scope/Generality: Evaluates the
+breadth of the statement.
+4. Temporal Consistency: Checks
+alignment with the described time-
+frame.
+5. Out-of-Context
+or
+Ambigu-
+ity: Rates clarity and contextual
+alignment.
+Results:• Decision Tree: Accuracy: 70%. Im-
+proved precision and recall, particu-
+larly for Classes 3 (Mostly-False) and 4
+(False).
+• Random Forest: Accuracy: 70%, con-
+sistent across all classes.
+• Gradient Boosting Classifier: Accuracy:
+70%, retained top performance but with
+reduced variance in class-wise metrics.
+• SVM: Accuracy: 74%, highest improve-
+ment among models. Macro F1-score in-
+creased due to better handling of Classes
+1 (Half-True) and 3 (Mostly-False).
+Analysis:
+• Removing Coherence eliminated noise,
+while new features enriched the model’s
+ability to discern nuanced patterns, espe-
+cially in subjective aspects like emotional
+tone and ambiguity.
+• SVM outperformed others by leverag-
+ing these high-dimensional features ef-
+fectively.
+
+
+
+
+

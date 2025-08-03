@@ -1,0 +1,301 @@
+[0.00 - 2.00]:  you
+[30.00 - 32.00]:  you
+[60.00 - 62.00]:  you
+[90.00 - 92.00]:  you
+[120.00 - 122.00]:  you
+[150.00 - 152.00]:  you
+[180.00 - 182.00]:  you
+[210.00 - 212.00]:  you
+[240.00 - 242.00]:  you
+[270.00 - 272.00]:  you
+[301.00 - 302.00]:  you
+[302.00 - 303.00]:  you
+[303.00 - 304.00]:  you
+[304.00 - 305.00]:  you
+[305.00 - 306.00]:  you
+[306.00 - 307.00]:  you
+[307.00 - 308.00]:  you
+[308.00 - 309.00]:  you
+[309.00 - 310.00]:  you
+[310.00 - 311.00]:  you
+[311.00 - 312.00]:  you
+[312.00 - 313.00]:  you
+[313.00 - 314.00]:  you
+[314.00 - 315.00]:  you
+[315.00 - 316.00]:  you
+[316.00 - 317.00]:  you
+[317.00 - 318.00]:  you
+[318.00 - 319.00]:  you
+[319.00 - 320.00]:  you
+[320.00 - 321.00]:  you
+[321.00 - 322.00]:  you
+[322.00 - 323.00]:  you
+[323.00 - 324.00]:  you
+[324.00 - 325.00]:  you
+[325.00 - 326.00]:  you
+[326.00 - 327.00]:  you
+[327.00 - 328.00]:  you
+[328.00 - 329.00]:  you
+[329.00 - 331.00]:  you
+[331.00 - 332.00]:  you
+[335.00 - 336.00]:  you
+[336.00 - 338.00]:  you
+[338.00 - 339.00]:  you
+[339.00 - 340.00]:  then
+[340.00 - 341.00]:  you
+[341.00 - 342.00]:  you
+[342.00 - 343.00]:  you
+[343.00 - 344.00]:  after
+[344.00 - 345.00]:  a
+[345.00 - 346.00]:  session
+[346.00 - 358.00]:  and a
+[358.00 - 360.26]:  So let's now welcome the candidates to the stage.
+[360.26 - 363.50]:  Vice President Kamala Harris and President Donald Trump.
+[363.50 - 364.50]:  No.
+[370.50 - 373.00]:  Kamala Harris, it's up good to be here.
+[373.00 - 374.00]:  You should see how fun.
+[374.00 - 375.00]:  Thank you.
+[375.00 - 377.00]:  Welcome to you both.
+[377.00 - 378.00]:  It's wonderful to have you.
+[378.00 - 379.50]:  It's an honor to have you both here tonight.
+[379.50 - 380.50]:  Good evening.
+[380.50 - 383.50]:  We are looking forward to a spirited and thoughtful debate.
+[383.50 - 384.50]:  So let's get started.
+[384.50 - 387.50]:  I want to begin tonight with the issue that voters repeatedly say
+[387.50 - 388.50]:  is their number one issue.
+[388.50 - 392.00]:  And that is the economy and the cost of living in this country.
+[392.00 - 395.00]:  Vice President Harris, you and President Trump were elected four years ago.
+[395.00 - 397.50]:  And you're appointed on the stage here tonight.
+[397.50 - 401.50]:  Often asks his supporters, are you better off than you were four years ago?
+[401.50 - 406.50]:  When it comes to the economy, do you believe Americans are better off that they were four years ago?
+[406.50 - 410.50]:  So I was raised as a middle-class kid.
+[410.50 - 415.50]:  And I am actually the only person on this stage who has a plan that is about lifting up
+[415.50 - 418.50]:  the middle class and working people of America.
+[418.50 - 423.50]:  I believe in the ambition, the aspirations, the dreams of the American people.
+[423.50 - 429.50]:  And that is why I imagine and have actually a plan to build what I call an opportunity economy.
+[429.50 - 431.00]:  Because here's the thing.
+[431.00 - 435.00]:  We know that we have a shortage of homes in housing.
+[435.00 - 438.50]:  And the cost of housing is too expensive for far too many people.
+[438.50 - 445.48]:  We know that young families need support to raise their children and I intend on extending a tax
+[445.48 - 452.48]:  cut for those families of $6,000, which is the largest child tax credit that we have given in a long time.
+[452.48 - 458.98]:  So that those young families can afford to buy a crib, buy a car seat, buy clothes for their children.
+[458.98 - 462.48]:  My passion, one of them, is small businesses.
+[462.48 - 467.48]:  I was actually, my mother raised my sister in me, but there was a woman who helped raise us.
+[467.48 - 470.48]:  We call her our second mother. She was a small business owner.
+[470.48 - 472.48]:  I love our small businesses.
+[472.48 - 481.48]:  My plan is to give a $50,000 tax deduction to start up small businesses knowing they are part of the backbone of America's economy.
+[481.48 - 494.48]:  My opponent, on the other hand, his plan is to do what he has done before, which is to provide a tax cut for billionaires and big corporations, which will result in $5 trillion to America's deficit.
+[494.48 - 505.48]:  My opponent has a plan that I call the Trump's sales tax, which would be a 20% tax on everyday goods that you rely on to get through the month.
+[505.48 - 523.48]:  Economists have said that that Trump's sales tax would actually result for middle-class families in about $4,000 more a year, because of his policies and his ideas about what should be the backs of middle-class people paying for tax cuts for billionaires.
+[523.48 - 526.48]:  President Trump will give you two minutes.
+[526.48 - 529.48]:  First of all, I have no sales tax. That's an incorrect statement.
+[529.48 - 533.48]:  She knows that we're doing tariffs on other countries.
+[533.48 - 539.48]:  Other countries are going to finally, after 75 years, pay us back for all that we've done for the world.
+[539.48 - 542.48]:  And the tariff will be substantial in some cases.
+[542.48 - 546.48]:  I took in billions and billions of dollars, as you know, from China.
+[546.48 - 549.48]:  In fact, they never took the tariff off, because it was so much money they can't.
+[549.48 - 553.48]:  It would totally destroy everything that they've set out to do.
+[553.48 - 557.48]:  They're taking in billions of dollars from China and other places. They've left the tariff on.
+[557.48 - 560.48]:  When I had it, I had tariffs, and yet I had no inflation.
+[560.48 - 568.48]:  Look, we've had a terrible economy, because inflation has, which is really known as a country mustard, breaks up countries.
+[568.48 - 572.48]:  We have inflation, like very few people have ever seen before.
+[572.48 - 575.48]:  Probably the worst in our nation's history.
+[575.48 - 583.48]:  We were at 21 percent, but that's being generous, because many things are 50, 60, 70, 80 percent higher than they were just a few years ago.
+[583.48 - 587.48]:  This has been a disaster for people, for the middle class, but for every class.
+[587.48 - 596.48]:  On top of that, we have millions of people pouring into our country from prisons and jails, from mental institutions and insane asylum.
+[596.48 - 603.48]:  And they're coming in and they're taking jobs that are occupied right now by African Americans and Hispanics.
+[603.48 - 605.48]:  And also unions.
+[605.48 - 607.48]:  Unions are going to be affected very soon.
+[607.48 - 611.48]:  And you see what's happening. You see what's happening with towns throughout the United States.
+[611.48 - 615.48]:  You look at Springfield, Ohio. You look at Aurora in Colorado.
+[615.48 - 620.48]:  They are taking over the towns. They're taking over buildings. They're going in violently.
+[620.48 - 627.48]:  These are the people that she and Biden led into our country, and they're destroying our country.
+[627.48 - 631.48]:  They're dangerous. They're at the highest level of criminality.
+[631.48 - 634.48]:  And we have to get them out. We have to get them out fast.
+[634.48 - 638.48]:  I created one of the greatest economies in the history of our country.
+[638.48 - 640.48]:  I'll do it again and even better.
+[640.48 - 647.48]:  We are going to get to immigration and border security during this debate, but I would like to let Vice President Harris respond on the economy here.
+[647.48 - 652.48]:  Well, I would love to. Let's talk about what Donald Trump left us.
+[652.48 - 658.48]:  Donald Trump left us the worst unemployment since the Great Depression.
+[658.48 - 664.48]:  Donald Trump left us the worst public health epidemic in a century.
+[664.48 - 672.48]:  Donald Trump left us the worst attack on our democracy since the Civil War.
+[672.48 - 676.48]:  And what we have done is clean up Donald Trump's mess.
+[676.48 - 682.48]:  What we have done and what I intend to do is build on what we know are the aspirations and the hopes of the American people.
+[682.48 - 685.48]:  But I'm going to tell you all on this debate tonight.
+[685.48 - 688.96]:  To come back and to live for the big number of雨, over the ago with the mayor for an older Tree,
+[688.96 - 694.48]:  over the past few, you'll be wondering what happens if there's something else which is about war.
+[694.48 - 696.48]:  That's why Jim Yepsen works with me.
+[696.48 - 704.48]:  I'm getting it all night, recording a show of disappearing events.
+[704.48 - 709.48]:  I'm not talking about basic, and I'm thinking of to read it, I'm telling you,
+[709.48 - 714.12]:  of bringing us together, no, we have so much more in common than what separates us.
+[714.12 - 717.40]:  And I pledge to you to be a President for all Americans.
+[717.40 - 719.20]:  President Trump will give you a minute here to respond.
+[719.20 - 720.52]:  Number one, I have nothing to do.
+[720.52 - 725.44]:  As you know, and as she knows better than anyone, I have nothing to do with Project 2025.
+[725.44 - 726.80]:  That's out there.
+[726.80 - 727.80]:  I haven't read it.
+[727.80 - 729.12]:  I don't want to read it purposely.
+[729.12 - 730.44]:  I'm not going to read it.
+[730.44 - 732.12]:  This was a group of people that got together.
+[732.12 - 733.44]:  They came up with some ideas.
+[733.44 - 736.40]:  I guess some good, some bad, but it makes no difference.
+[736.40 - 737.64]:  I have nothing to do.
+[737.64 - 739.24]:  Everybody knows I'm an open book.
+[739.24 - 740.48]:  Everybody knows what I'm going to do.
+[740.48 - 745.24]:  Cut taxes very substantially and create a great economy, like I did before.
+[745.24 - 746.64]:  We had the greatest economy.
+[746.64 - 748.36]:  We got hit with a pandemic.
+[748.36 - 753.48]:  And the pandemic was not since 1917 where 100 million people died.
+[753.48 - 754.64]:  Has there been anything like it?
+[754.64 - 757.32]:  We did a phenomenal job with the pandemic.
+[757.32 - 762.60]:  We handed them over a country where the economy and where the stock market was higher
+[762.60 - 765.72]:  than it was before the pandemic came in.
+[765.72 - 767.52]:  Nobody's ever seen anything like it.
+[767.56 - 769.88]:  We made ventilators for the entire world.
+[769.88 - 771.68]:  We got gowns, we got masks.
+[771.68 - 774.08]:  We did things that nobody thought possible.
+[774.08 - 776.40]:  And people give me credit for rebuilding the military.
+[776.40 - 780.32]:  They give me credit for a lot of things, but not enough credit for the great job we did
+[780.32 - 781.52]:  with the pandemic.
+[781.52 - 783.88]:  But the only jobs they got were bounce back jobs.
+[783.88 - 785.80]:  These were jobs bounce back.
+[785.80 - 788.48]:  And it bounced back and it went to their benefit.
+[788.48 - 790.20]:  But I was the one that created them.
+[790.20 - 792.04]:  They know it and so does everybody else.
+[792.04 - 794.24]:  Vice President Harris, I'll leave you respond.
+[794.24 - 798.64]:  So Donald Trump has no plan for you.
+[798.64 - 803.72]:  And when you look at his economic plan, it's all about tax breaks for the richest people.
+[803.72 - 808.16]:  I am offering what I describe as an opportunity economy.
+[808.16 - 813.84]:  And the best economists in our country, if not the world, have reviewed our relative plans
+[813.84 - 816.16]:  for the future of America.
+[816.16 - 821.88]:  What Goldman Sachs has said is that Donald Trump's plan would make the economy worst, mine
+[821.88 - 823.84]:  would strengthen the economy.
+[823.84 - 830.72]:  But the Wharton School has said is Donald Trump's plan would actually explode the deficit.
+[830.72 - 836.46]:  Sixteen Nobel laureates have described his economic plan as something that would increase
+[836.46 - 841.34]:  inflation and by the middle of next year would invite a recession.
+[841.34 - 845.36]:  You just have to look at where we are and where we stand on the issues.
+[845.36 - 850.66]:  And I'd invite you to know that Donald Trump actually has no plan for you because he is
+[850.66 - 854.74]:  more interested in defending himself than he is in looking out for you.
+[854.74 - 863.02]:  I went to the Wharton School of Finance and many of those professors, the top professors.
+[863.02 - 864.74]:  Think my plan is a brilliant plan.
+[864.74 - 865.74]:  It's a great plan.
+[865.74 - 869.58]:  It's a plan that's going to bring up our worth, our value as a country.
+[869.58 - 874.22]:  It's going to make people want to be able to go and work and create jobs and create
+[874.22 - 878.78]:  a lot of good, solid money for our country.
+[878.78 - 882.46]:  Just to finish off, she doesn't have a plan.
+[882.46 - 890.02]:  She copied Biden's plan and it's like four sentences, like run-spot-run, four sentences
+[890.02 - 893.22]:  that are just, oh, we'll try and lower taxes.
+[893.22 - 894.22]:  She doesn't have a plan.
+[894.22 - 895.22]:  Take a look at her plan.
+[895.22 - 896.22]:  She doesn't have a plan.
+[896.22 - 899.98]:  Mr. President, I do want to drill down on something you both brought up.
+[899.98 - 902.06]:  The Vice President brought up your tariffs.
+[902.06 - 906.82]:  You responded and let's drill down on this because your plan is what she calls as essentially
+[906.82 - 908.22]:  a national sales tax.
+[908.22 - 911.82]:  The proposal calls for tariffs, as you pointed out here, on foreign imports across the
+[911.82 - 912.82]:  board.
+[912.82 - 916.58]:  You recently said that you might double your plan, imposing tariffs up to 20 percent on goods
+[916.58 - 918.34]:  coming into this country.
+[918.34 - 922.50]:  As you know, many economists say that we tariffs at that level cost are then passed on to the
+[922.50 - 923.50]:  consumer.
+[923.50 - 928.86]:  Vice President Harris has argued it'll mean higher prices on gas, food, clothing, medication,
+[928.86 - 932.82]:  arguing it costs the typical family nearly $4,000 a year.
+[932.82 - 935.98]:  Do you believe Americans can afford higher prices because of tariffs?
+[935.98 - 937.46]:  We're not going to have higher prices.
+[937.46 - 941.94]:  What's going to have, and who's going to have higher prices is China and all of the countries
+[941.94 - 944.14]:  that have been ripping us off for years.
+[944.14 - 945.14]:  I charge.
+[945.14 - 947.18]:  I was the only president ever.
+[947.18 - 951.82]:  China was paying us hundreds of billions of dollars and so were other countries.
+[951.82 - 955.22]:  And if she doesn't like them, they should have gone out and they should have immediately
+[955.22 - 956.22]:  cut the tariffs.
+[956.22 - 960.98]:  But those tariffs are there three and a half years now under their administration.
+[960.98 - 966.06]:  We are going to take in billions of dollars, hundreds of billions of dollars.
+[966.06 - 969.06]:  I had no inflation, virtually no inflation.
+[969.06 - 973.02]:  They had the highest inflation, perhaps, in the history of our country because I've never
+[973.02 - 974.90]:  seen a worst period of time.
+[974.90 - 979.74]:  People can't go out and buy cereal or bacon or eggs or anything else.
+[979.74 - 984.38]:  The people of our country are absolutely dying with what they've done.
+[984.38 - 987.98]:  They've destroyed the economy and all you have to do is look at a poll.
+[987.98 - 994.14]:  The polls say 80 and 85 and even 90 percent that the Trump economy was great, that their
+[994.14 - 995.74]:  economy was terrible.
+[995.74 - 997.82]:  Vice President Harris, I do want to ask for your response.
+[997.82 - 1001.30]:  And you heard what the president said there because the Biden administration did keep
+[1001.30 - 1003.26]:  a number of the Trump tariffs in place.
+[1003.26 - 1004.26]:  So how do you respond?
+[1004.26 - 1010.22]:  Well, let's be clear that the Trump administration resulted in a trade deficit, one of the highest
+[1010.22 - 1012.90]:  we've ever seen in the history of America.
+[1012.90 - 1014.66]:  He invited trade wars.
+[1014.66 - 1020.10]:  He wanted to talk about his deal with China, what he ended up doing is under Donald Trump's
+[1020.10 - 1021.10]:  presidency.
+[1021.10 - 1028.18]:  He ended up selling American chips to China to help them improve and modernize their
+[1028.18 - 1035.06]:  military, basically sold us out when a policy about China should be in making sure the
+[1035.06 - 1040.66]:  United States of America wins the competition for the 21st century, which means focusing
+[1040.74 - 1046.26]:  on the details of what that requires, focusing on relationships with our allies, focusing
+[1046.26 - 1053.02]:  on investing in American based technology so that we win the race on AI, on quantum computing,
+[1053.02 - 1059.66]:  focusing on what we need to do to support America's workforce so that we don't end up having
+[1059.66 - 1063.86]:  on the short end of the stick in terms of workers' rights.
+[1063.86 - 1069.66]:  But what Donald Trump did, let's talk about this, with COVID, is he actually thanked President
+[1069.66 - 1072.14]:  Xi for what he did during COVID.
+[1072.14 - 1073.62]:  Look at his tweet.
+[1073.62 - 1080.70]:  Thank you, President Xi, exclamation point, when we know that Xi was responsible for lacking
+[1080.70 - 1085.10]:  and not giving us transparency about the origins of COVID.
+[1085.10 - 1086.10]:  President Trump will let you respond.
+[1086.10 - 1088.98]:  First of all, they bought their chips from Taiwan.
+[1088.98 - 1095.42]:  We hardly make chips anymore because of philosophies like they have, and policies like they have,
+[1095.42 - 1098.22]:  I don't say her because she has no policy.
+[1098.22 - 1102.86]:  Everything that she believed three years ago and four years ago is out the window, she's
+[1102.86 - 1103.86]:  going to my philosophy now.
+[1103.86 - 1106.50]:  In fact, I was going to send her a MAGA hat.
+[1106.50 - 1107.94]:  She's gone to my philosophy.
+[1107.94 - 1110.86]:  But if she ever got elected, she'd change it.
+[1110.86 - 1113.78]:  And it will be the end of our country.
+[1113.78 - 1115.06]:  She's a Marxist.
+[1115.06 - 1116.46]:  Everybody knows she's a Marxist.
+[1116.46 - 1121.26]:  Her father's a Marxist professor in economics, and he taught her well.
+[1121.26 - 1125.02]:  But when you look at what she's done to our country, and when you look at these
+[1125.02 - 1129.66]:  millions and millions of people that are pouring into our country monthly, where it's,
+[1129.66 - 1133.42]:  I believe, 21 million people, not the 15 that people say.
+[1133.42 - 1135.78]:  And I think it's a lot higher than the 21.
+[1135.78 - 1139.86]:  That's bigger than New York State pouring in, and just look at what they're doing to our
+[1139.86 - 1140.86]:  country.
+[1140.86 - 1141.86]:  They're criminals.
+[1141.86 - 1143.94]:  Many of these people coming in are criminals.
+[1143.94 - 1145.86]:  And that's bad for our economy, too.
+[1145.86 - 1148.54]:  You know, you mentioned before, we'll talk about immigration later.
+[1148.54 - 1152.82]:  Well, bad immigration is the worst thing that can happen to our economy.
+[1152.82 - 1159.54]:  They have, and she has, destroyed our country with policy that's insane.
+[1159.54 - 1162.74]:  Almost policy that you'd say they have to hate our country.
+[1162.74 - 1163.74]:  President Trump, thank you.
+[1163.74 - 1164.74]:  Lindsey.
+[1164.74 - 1167.02]:  I want to turn to the issue of abortion.
+[1167.02 - 1171.18]:  President Trump, you've often touted that you were able to kill, rovy-weight last year.
+[1171.18 - 1176.26]:  You said that you were proud to be the most pro-life president in American history.
+[1176.26 - 1180.66]:  Then last month, you said that your administration would be great for women and their reproductive
+[1180.66 - 1181.66]:  rights.
+[1181.74 - 1184.72]:  And you said that you were in the same state of Florida, you surprised many with regard to
+[1184.72 - 1188.88]:  your six-week abortion ban, because you initially had said that it was too short, and you said,
+[1188.88 - 1192.46]:  quote, I'm going to be voting that we need more than six weeks.
+[1192.46 - 1196.98]:  But then, the very next day, you reversed course, and said you would vote to support the
+[1196.98 - 1198.38]:  six-week ban.
+[1198.38 - 1203.16]:  Vice President Harris says that women shouldn't trust you on the issue of abortion because
+[1203.16 - 1206.10]:  you've changed your position so many times.
+[1206.10 - 1207.86]:  Therefore, why should they trust you?
+[1207.86 - 1212.86]:  The reason I'm doing that vote is because the plan is, as you know, the vote is, they
+[1212.86 - 1215.74]:  have abortion in the ninth month.
+[1215.74 - 1219.70]:  They even have, and you can look at the governor of West Virginia, the previous governor of
+[1219.70 - 1223.22]:  West Virginia, not the current governor's doing an excellent job.
+[1223.22 - 1228.62]:  But the governor before, he said the baby will be born, and we will decide what to do with
+[1228.62 - 1229.62]:  the baby.
+[1229.62 - 1231.06]:  In other words, we'll execute the baby.
+[1231.06 - 1235.06]:  And that's why I did that, because that predominates, because they're radical.
+[1235.06 - 1240.04]:  The Democrats are radical in that, and her vice presidential pick, which I think is
+[1240.04 - 1244.54]:  a horrible pick, by the way, for our country, because he is really out of it.
+[1244.54 - 1250.10]:  But her vice presidential pick says abortion in the ninth month is absolutely fine.
+[1250.10 - 1253.18]:  He also says execution after birth.
+[1253.18 - 1257.98]:  It's execution, no longer abortion, because the baby is born is okay.
+[1257.98 - 1260.50]:  And that's not okay with me, hence the vote.
+[1260.50 - 1266.62]:  But what I did is something for 52 years, they've been trying to get Roe v Wade into the
+[1266.62 - 1267.98]:  states.
+[1267.98 - 1276.94]:  And through the genius and heart and strength of six Supreme Court justices, we were able
+[1276.94 - 1277.94]:  to do that.

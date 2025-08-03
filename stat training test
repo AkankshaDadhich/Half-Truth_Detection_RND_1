@@ -1,0 +1,23 @@
+train 14771
+val 1055
+test 5276
+
+
+---
+mostly true 202
+half-true 201
+mostly-false 199
+true 124
+false 198
+
+total : 924
+
+
+test 100
+
+train 640
+
+val 60
+
+
+
